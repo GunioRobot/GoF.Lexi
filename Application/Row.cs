@@ -36,7 +36,7 @@ namespace GoF.Lexi.Application
 
             foreach (Glyph item in children)
             {
-                
+
             }
         }
 

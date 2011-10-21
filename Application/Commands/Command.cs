@@ -16,7 +16,7 @@ namespace GoF.Lexi.Application.Commands
         public static void Undo()
         {
             if (commands.Last() != null)
-            { 
+            {
                 commands.Last().Unexecute();
                 commands.Remove(commands.Last());
             }

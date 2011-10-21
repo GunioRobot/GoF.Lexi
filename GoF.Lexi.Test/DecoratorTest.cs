@@ -16,7 +16,7 @@ namespace GoF.Lexi.Test
         {
             Glyph row = new CurlyBracketsDecorator(new Rectangle());
             Window window = new TextWindow(new SimpleTextWindowImp());
-            
+
             row.Draw(window);
 
             Assert.AreEqual("{Rectangle}", window.DrawnText);

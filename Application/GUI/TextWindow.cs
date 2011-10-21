@@ -11,8 +11,8 @@ namespace GoF.Lexi.Application.GUI
         {
         }
 
-        public override string DrawnText 
-        { 
+        public override string DrawnText
+        {
             get
             {
                 return base.windowImplementation.DrawnText;

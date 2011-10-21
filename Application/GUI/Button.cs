@@ -14,7 +14,7 @@ namespace GoF.Lexi.Application.GUI
         {
             this.clickCommand = clickCommand;
         }
-        
+
         public void Click()
         {
             clickCommand.Execute();

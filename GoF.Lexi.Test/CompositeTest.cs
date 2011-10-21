@@ -23,7 +23,7 @@ namespace GoF.Lexi.Test
         public void Create_A_Single_Rectangle()
         {
             Glyph rectangle = new Rectangle();
-            
+
             rectangle.Draw(window);
 
             Assert.AreEqual("Rectangle", window.DrawnText);
@@ -33,7 +33,7 @@ namespace GoF.Lexi.Test
         public void Create_Composite_Of_Two_Rectangles()
         {
             Row row = new Row();
-                        
+
             row.Insert(new Rectangle());
             row.Insert(new Rectangle());
 

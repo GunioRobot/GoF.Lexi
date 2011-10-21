@@ -11,7 +11,7 @@ namespace GoF.Lexi.Application.GUI
 
         public MacButton(Command clickCommand) : base(clickCommand)
         {
-                
+
         }
 
         public override void Draw(Window window)

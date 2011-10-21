@@ -14,8 +14,8 @@ namespace GoF.Lexi.Test
 
         /*   Abstract Factories allow us to create families of related products (only one implemented here)
          *   without instantiated the classes directly.
-         * 
-         *   Therefore by setting another factory we could instantiate a whole other family of classees, 
+         *
+         *   Therefore by setting another factory we could instantiate a whole other family of classees,
          *   without depending directly on them
          */
 
